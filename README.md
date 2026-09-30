@@ -73,6 +73,9 @@ echo "GEMINI_API_KEY=你的Key" > .env.local
 
 # 3. 启动开发服务器
 npm run dev
+
+# 4. 类型检查（可选）
+npm run lint
 ```
 
 访问 `http://localhost:3000` 即可使用。生产构建：`npm run build`。
